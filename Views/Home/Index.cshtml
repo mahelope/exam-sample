@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="jumbotron">
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        @ViewData["Message"]
+    </div>
+</div>
+</div>
+<a href="/?write=true">Write Cache</a>
+<br />
+<a href="/?write=false">Read Cache</a>
